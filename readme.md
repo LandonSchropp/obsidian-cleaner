@@ -14,7 +14,8 @@ note in the editor. When run, the command will remove the following from the not
 
 - HTML Comments
 - Empty list items
-- Multiple empty lines
 - Headers with empty content
+- Lines containing only whitespace
+- Multiple empty lines
 
 When a new daily note is created, this plugin will also clean the previous daily note.
