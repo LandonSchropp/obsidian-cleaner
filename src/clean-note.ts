@@ -17,13 +17,7 @@ const WHITESPACE_REGEX = /^[ \t]+$/gm;
 const NEWLINES_REGEX = /\n{3,}/g;
 
 /**
- * Cleans the provided note. This function does several things in the following order:
- *
- * - HTML Comments
- * - Empty list items
- * - Headers with empty content
- * - Lines containing only whitespace
- * - Multiple empty lines
+ * Cleans the provided note.
  *
  * This is _not_ meant to be perfect. There are likely edge cases that this function does not
  * cover, especially since it primarily relies on regular expressions instead of parsing the
