@@ -1,9 +1,9 @@
 {
-  "id": "",
-  "name": "",
+  "id": "cleaner",
+  "name": "cleaner",
   "version": "1.0.0",
-  "minAppVersion": "0.15.0",
-  "description": "Cycles between different types of lists and checkboxes in Obisidan",
+  "minAppVersion": "1.6.7",
+  "description": "A plugin for removing empty sections of markdown files",
   "author": "Landon Schropp",
   "authorUrl": "https://www.landonschropp.com",
   "isDesktopOnly": false
