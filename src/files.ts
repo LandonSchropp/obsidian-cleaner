@@ -21,7 +21,7 @@ export function isDailyNote(file: TAbstractFile): boolean {
  * @returns The file representing the previous daily note (likely yesterday), or undefined if it
  * doesn't exist.
  */
-export function fetchPreviousDailynote(app: App): TFile | undefined {
+export function findPreviousDailyNote(app: App): TFile | undefined {
   const dailyNotes = app.vault
     .getFiles()
     .filter(isDailyNote)
